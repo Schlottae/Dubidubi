@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+#2022 Charlotte Oetken
+if [[ -z "$1" ]]; then
+	echo "Gib Ort Mensch"
+	exit
+fi
+
+curl wttr.in/"$1"
